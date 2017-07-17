@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322562B81F04E9E1004AA7D2 /* vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322562B71F04E9E1004AA7D2 /* vec3.cpp */; };
 		32FE578B1F01100E004EE00E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FE578A1F01100E004EE00E /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		322562B71F04E9E1004AA7D2 /* vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
 		32FE57871F01100E004EE00E /* RayTracingInOneWeekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracingInOneWeekend; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE578A1F01100E004EE00E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				32FE578A1F01100E004EE00E /* main.cpp */,
+				322562B71F04E9E1004AA7D2 /* vec3.cpp */,
 			);
 			path = RayTracingInOneWeekend;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322562B81F04E9E1004AA7D2 /* vec3.cpp in Sources */,
 				32FE578B1F01100E004EE00E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +252,7 @@
 				32FE57901F01100E004EE00E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
