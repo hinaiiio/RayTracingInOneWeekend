@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		322562B71F04E9E1004AA7D2 /* vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
+		326E92AD1F1CDE3A00B02591 /* vec3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vec3.hpp; sourceTree = "<group>"; };
 		32FE57871F01100E004EE00E /* RayTracingInOneWeekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracingInOneWeekend; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE578A1F01100E004EE00E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +60,7 @@
 		32FE57891F01100E004EE00E /* RayTracingInOneWeekend */ = {
 			isa = PBXGroup;
 			children = (
+				326E92AD1F1CDE3A00B02591 /* vec3.hpp */,
 				32FE578A1F01100E004EE00E /* main.cpp */,
 				322562B71F04E9E1004AA7D2 /* vec3.cpp */,
 			);
